@@ -1,6 +1,6 @@
 %define name knock
 %define version 0.5
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: A client to open connection trought firewall
 Name: %{name}
@@ -68,4 +68,3 @@ rm -rf $RPM_BUILD_ROOT
 %_sbindir/%{name}d
 %_mandir/man1/%{name}.1*
 %_mandir/man1/%{name}d.1*
-
