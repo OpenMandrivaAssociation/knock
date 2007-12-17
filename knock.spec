@@ -12,7 +12,6 @@ Source2: %{name}d.logrotate.bz2
 License: GPL
 Group: Networking/Other
 Url:  http://www.zeroflux.org/knock/
-BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libpcap-devel
 Requires(post): rpm-helper
 Requires(preun): rpm-helper
