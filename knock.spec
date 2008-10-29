@@ -1,14 +1,14 @@
 Summary:	Open connection through firewall on specified signal
 Name:		knock
 Version:	0.5
-Release:	%mkrel 6
+Release:	%mkrel 7
 Source0:	http://www.zeroflux.org/knock/files/%{name}-%{version}.tar.bz2
 Source1:	knockd.initscript
 Source2:	knockd.logrotate
 License:	GPLv2+
 Group:		Networking/Other
 URL:		http://www.zeroflux.org/knock/
-BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	libpcap-devel
 
 Requires(post):		rpm-helper
