@@ -5,14 +5,14 @@ Release:	%mkrel 7
 Source0:	http://www.zeroflux.org/knock/files/%{name}-%{version}.tar.bz2
 Source1:	knockd.initscript
 Source2:	knockd.logrotate
+Patch0:   knock-0.5-limits.h.fix.diff
 License:	GPLv2+
 Group:		Networking/Other
 URL:		http://www.zeroflux.org/knock/
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	libpcap-devel
-
 Requires(post):		rpm-helper
 Requires(preun):	rpm-helper
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 knock is a server/client set that implements the idea known as port-
@@ -23,6 +23,7 @@ access or similar.
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
 %configure2_5x
