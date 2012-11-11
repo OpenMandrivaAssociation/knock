@@ -1,0 +1,10 @@
+--- src/knockd.c	2005-06-27 07:11:34.000000000 +0200
++++ src/knockd.c.oden	2008-10-29 17:29:56.000000000 +0100
+@@ -47,6 +47,7 @@
+ #include <pcap.h>
+ #include <errno.h>
+ #include "list.h"
++#include <limits.h>
+ 
+ static char version[] = "0.5";
+ 
