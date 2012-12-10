@@ -1,4 +1,2 @@
 sources:
-  "knock-0.5.tar.bz2:"	7ac62080bcc26e9286b6ce731a4f7f89e62f6f94
-  "knockd.initscript:"	d87500424c392747dc3f70a7312cc204cd5557c8
-  "knockd.logrotate:"	d343100f8a78cef7d240db8b69aa7617f8e9c9f8
+  "knock-0.5.tar.bz2": 7ac62080bcc26e9286b6ce731a4f7f89e62f6f94

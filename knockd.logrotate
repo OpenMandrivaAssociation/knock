@@ -1,0 +1,6 @@
+/var/log/knockd.log {
+    weekly
+    notifempty
+    missingok
+    copytruncate
+}
