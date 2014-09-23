@@ -1,0 +1,12 @@
+[Unit]
+Description=Port knocking daemon
+After=syslog.target network.target
+Wants=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=-sysconfig/knockd
+ExecStart=/usr/bin/knockd $OPTIONS
+
+[Install]
+WantedBy=multi-user.target
