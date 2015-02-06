@@ -1,7 +1,7 @@
 Summary:	Open connection through firewall on specified signal
 Name:		knock
 Version:	0.5
-Release:	13
+Release:	14
 Source0:	http://www.zeroflux.org/knock/files/%{name}-%{version}.tar.bz2
 Source1:	knockd.service
 Source2:	knockd.logrotate
