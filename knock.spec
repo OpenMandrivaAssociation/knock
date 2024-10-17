@@ -8,7 +8,7 @@ Source2:	knockd.logrotate
 Patch0:   knock-0.5-limits.h.fix.diff
 License:	GPLv2+
 Group:		Networking/Other
-URL:		http://www.zeroflux.org/knock/
+URL:		https://www.zeroflux.org/knock/
 BuildRequires:	libpcap-devel
 
 %description
