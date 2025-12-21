@@ -9,6 +9,11 @@ Patch0:   knock-0.5-limits.h.fix.diff
 License:	GPLv2+
 Group:		Networking/Other
 URL:		https://www.zeroflux.org/knock/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libpcap-devel
 
 %description
